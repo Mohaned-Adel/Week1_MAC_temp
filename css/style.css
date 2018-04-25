@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+body { display: block; font-family: sans-serif }
+
+/*** Header ***/
+.header .navBar {
+    border-top: 3px solid #ff6a00;
+    overflow: hidden;
+    color: #888;
+    width: 100%;
+    box-shadow: 2px 0px 2px #888;
+    background-color: white;
+    position: fixed;
+    
+}
+
+.header .navBar h3 { float: left; margin-top: 20px; }
+
+.header .navBar ul { float: right; list-style: none; }
+
+.header .navBar ul li  {
+    float: left;
+    padding: 20px; 
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.header .navBar ul .home { background-color: coral; }
+
+.header li:hover { background-color: coral; }
+
+.header .navBar i {
+    position: absolute;
+    right: 150px;
+    top: 20px;
+    display: none;
+}
+
+.header .logo {
+    background-image: radial-gradient(#fabd54, #643519);
+    width: 95%;
+    height: 400px;
+    display: block;
+    margin: 0px auto;
+    color: white;
+    overflow: hidden;
+}
+
+.header .logo .titles { margin: 100px 0px; float: left; width: 55%; }
+
+.header .logo .titles h1 { font-size: 4em; margin: 0; }
+
+.header .logo .titles h2 { font-size: 2.4em; margin: 10px 0; }
+
+.header .logo .texts {
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+
+.header .logo .texts h4 { font-size: 1.2em;  margin: 0; }
+
+.header .logo .texts p { line-height: 1.7; } 
+
+.header .logo .texts button {
+    background-color: #45c491;
+    padding: 10px 25px;
+    border: none;
+    color: #fff;   
+    margin-top: 25px; 
+    cursor: pointer;
+}
+
+.header .logo .texts button:hover { box-shadow: 0 05px 10px #333333 }
+
+/* /Header */
+
+/* Sections */
+
+        /* shortCuts section */ 
+
+.shortCuts { text-align: center;  overflow: hidden;   }  
+
+.shortCuts .shortCuts-container { 
+    margin: 70px 20px 100px 0px; 
+    float: left; width: 
+    calc(33.3333% - 20px);
+    border: 2px solid transparent;
+}
+
+.shortCuts .shortCuts-container:hover { box-shadow: 1px 5px 51px #555; border: 2px solid #ddd; }
+
+.shortCuts .shortCuts-container i { font-size: 5em; color: #ddd; }
+
+.shortCuts .shortCuts-container  h3{ margin: 10px auto; font-size: 2em; color: #555; }
+
+.shortCuts  .shortCuts-container p { font-size: 1.2em; line-height: 1.7em; color: #999; }
+
+        /* /shortCuts section */ 
+
+        /* knowing */
+
+.knowing { text-align: center; background-color: #FB5604; color: white; }
+
+.knowing h3 { font-size: 2em; padding: 50px 0 20px 0; }
+
+.knowing p {
+    color: #ccc;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 30px
+}
+
+.knowing button {
+    background-color: #D74A04;
+    color: wheat;
+    padding: 5px 20px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 5em;
+    cursor: pointer;
+}
+
+.knowing button:hover { box-shadow: 0 5px 7px }
+
+        /* /knowing */
+
+        /* packages */
+
+.packages { margin: 50px 10px 100px 10px; text-align: center; overflow: hidden; }
+
+.packages h2 { text-align: center; margin-bottom: 5px; color: #555; }
+
+.packages .pack-container {
+    width: 40%;
+    display: inline-block;
+    padding: 20px;
+    color: #777;
+}
+
+.packages h3 { margin: 5px; }
+
+
+        /* /packages */
+
+        /* about the team */
+
+.about-the-team { background-color: #eee; padding: 50px 0; overflow: hidden; }
+
+.about-the-team h3 { font-size: 1.7em; color: #555; margin: 25px 0; }
+
+.about-the-team .left-text { width: 65%; float: left; padding-right: 10px; }
+
+.about-the-team .left-text p { line-height: 1.7em; color: #999; padding-top: 10px; }
+
+.about-the-team .right-text { width: 35%; float: right; }
+
+.about-the-team .right-text h3 { text-align: center; }
+
+.about-the-team .right-text img {
+    height: 150px;
+    width: calc(50% - 20px);
+    margin: 10px;
+    float: left;
+}
+
+        /* /about the team */
+
+
+        /* fields */ 
+
+.fields { text-align: center; padding: 50px 10px 70px 20px;  }
+
+.fields .input { color: #999; }
+
+.fields .input h3 { font-size: 2em; margin: 20px; color: #555 }
+
+.fields .input p { font-size: 1.3em; margin-bottom: 20px; }
+
+.fields .input input {
+    margin: 5px 0 20px 0;
+    width: 750px;
+    text-align: center;
+    padding: 10px;
+}
+
+.fields .input .message {
+    padding-bottom: 300px;
+    margin-bottom: 0;
+    overflow: auto;
+    max-width: 100%
+}
+.fields .input input[type="submit"] {
+    margin: 0;
+    border: none;
+    background-color: #eee;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fields .input input[type="submit"]:hover { background-color: coral; color: white; }
+
+        /* /fields */
+
+ /* /sections */
+
+ /* footer */
+
+.footer { overflow: hidden; background-color: #333333; padding: 50px 0; }
+
+.footer .contacts h3 { color: #ddd; margin-bottom: 10px; display: block; }
+
+.footer .contacts p { color: #777; }
+
+.footer .contacts .we-can-do { float: left; width: 35%; margin-right: 10%; }
+
+.footer .contacts .social-media { float: left; width: 30%; margin-right: 5%;}
+
+.footer .contacts .social-media  .fab {
+    color: white;
+    font-size: 1.5em;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 5px;
+    background-color: #555
+}
+
+.footer .contacts .social-media .fa-dribbble:hover{ background-color: pink; }
+
+.footer .contacts .social-media .fa-facebook-f:hover { background-color: blue; }
+
+.footer .contacts .social-media .fa-twitter:hover { background-color: cornflowerblue; }
+
+.footer .contacts .social-media .fa-pinterest-p:hover { background-color: green; }
+
+.footer .contacts .contact { float: right; width: 20%;}
+
+.footer .contacts .contact span {
+    color: white;
+    font-style: italic;
+    padding: 5px 0;
+    display: inline-block;
+    
+}
+
+ /* /footer */
+
+
+    /* Media Query  */
+
+    /* large screens */
+
+@media (min-width:1200px) {
+    .container {
+        width: 1100px;
+        margin: auto;
+    }
+}
+
+    /* medium screens */
+
+@media (min-width:992px) and (max-width: 1199px){
+    .container {
+        width: 900px;
+        margin: auto;
+    }
+}
+    /* small screens */
+
+@media (min-width: 768px) and (max-width:991px){
+    .container {
+        width: 700px;
+        margin: auto;
+    }
+
+    .header .navBar {
+        padding-bottom: 15px; 
+    }
+
+    .header .navBar ul {
+        display: none;
+    }
+
+    .header .navBar i {
+        display: block;
+        cursor: pointer;
+    }
+
+    .header .logo .titles h1 {
+        font-size: 3em;
+    }
+
+    .header .logo .titles h2 {
+        font-size: 1.8em;
+        margin-top: 50px
+    }
+
+    .shortCuts .shortCuts-container:first-child {
+        margin-top: 40px;
+    }
+
+    .shortCuts .shortCuts-container {
+        float: none;
+        width: auto;
+        padding: 50px;
+        margin-top: 0px;
+    }
+
+    .knowing p,
+    .packages .pack-container,
+    .about-the-team .left-text,
+    .about-the-team .right-text {
+        width: auto;
+    }
+
+    .about-the-team .left-text {
+        float: none;
+        text-align: center;
+        padding-right: 0px
+    }
+
+    .about-the-team .right-text {
+        float: none;
+    }
+
+    .fields .input input {
+        width: 100%
+    }
+
+    .fields .input .message {
+        max-width: none;
+    }
+
+    .footer .contacts .we-can-do {
+        margin-right: 7%;
+    }
+
+    .footer .contacts .social-media {
+        width: 30%;
+        margin-right: 3%;
+    }
+
+    .footer .contacts .social-media .fab {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .footer .contacts .contact {
+        width: 25%;
+    }
+
+}
+
+    /* x-small screens */
+
+@media(max-width:767px){
+
+    .header .navBar {
+        padding-bottom: 15px; 
+    }
+
+    .header h3 {
+        margin-left: 100px
+    }
+
+    .header .navBar ul {
+        display: none;
+    }
+
+    .header .navBar i {
+        display: block;
+        cursor: pointer;
+    }
+
+    .header .logo {
+        height: auto;
+        text-align: center;
+    }
+
+    .header .logo .titles,
+    .header .logo .texts {
+        float: none;
+        width: auto;
+    }
+
+    .header .logo .texts {
+        padding-bottom: 30px;
+        color: #ccc;
+    }
+
+    .header .logo .titles h1 {
+        font-size: 3em;
+    }
+
+    .header .logo .titles h2 {
+        font-size: 1.8em;
+        margin-top: 50px
+    }
+
+    .shortCuts .shortCuts-container:first-child {
+        margin-top: 40px;
+    }
+
+    .shortCuts .shortCuts-container {
+        float: none;
+        width: auto;
+        padding: 50px;
+        margin: 0px;
+    }
+
+    .knowing p {
+        padding: 10px
+    }
+
+    .knowing p,
+    .packages .pack-container,
+    .about-the-team .left-text,
+    .about-the-team .right-text {
+        width: auto;
+    }
+
+    .about-the-team .left-text {
+        float: none;
+        text-align: center;
+        padding-right: 0px
+    }
+
+    .about-the-team .right-text {
+        float: none;
+    }
+
+    .fields .input input {
+        width: 100%
+    }
+
+    .fields .input .message {
+        max-width: none;
+    }
+
+    .footer {
+        padding: 50px 5px;
+    }
+
+    .footer .contacts .we-can-do {
+        margin-right: 7%;
+    }
+
+    .footer .contacts .social-media {
+        width: 30%;
+        margin-right: 3%;
+    }
+
+    .footer .contacts .social-media .fab {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .footer .contacts .contact {
+        width: 25%;
+    }
+    
+}
