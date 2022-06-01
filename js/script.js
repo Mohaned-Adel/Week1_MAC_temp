@@ -1,1 +1,12 @@
-document.getElementsByTagName("h1")[0].style.color = "#ff0000";
+
+var dropicon = document.getElementById('drop-bt');
+let navList = document.getElementById('nav-list');
+let closeTag = document.querySelector('.close');
+
+dropicon.addEventListener('click', function() {
+    navList.classList.toggle('active');
+});
+
+closeTag.addEventListener('click', function() {
+    navList.classList.toggle('active');
+});
