@@ -71,12 +71,16 @@ body { display: block; font-family: sans-serif }
 
 .header .logo {
     background-image: radial-gradient(#fabd54, #643519);
-    width: 95%;
-    height: 400px;
+    width: 100vw;
+    min-height: 400px;
     display: block;
     margin: 0px auto;
     color: white;
     overflow: hidden;
+}
+
+.logo .container {
+    margin-top: 50px;
 }
 
 .header .logo .titles { margin: 100px 0px; float: left; width: 55%; }
@@ -100,12 +104,18 @@ body { display: block; font-family: sans-serif }
     background-color: #45c491;
     padding: 10px 25px;
     border: none;
-    color: #fff;   
+    border-radius: 20px;
+    color: white;   
     margin-top: 25px; 
     cursor: pointer;
+    font-weight: bold;
 }
-
-.header .logo .texts button:hover { box-shadow: 0 05px 10px #333333 }
+.header .logo .texts button:hover { 
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.3);
+    background-color: tomato;
+    color: #333333;
+    transition: 0.3s ease-in-out all;
+ }
 
 /* /Header */
 
@@ -122,7 +132,11 @@ body { display: block; font-family: sans-serif }
     border: 2px solid transparent;
 }
 
-.shortCuts .shortCuts-container:hover { box-shadow: 1px 5px 51px #555; border: 2px solid #ddd; }
+.shortCuts .shortCuts-container:hover { 
+    box-shadow: 1px 5px 51px #555; 
+    border: 2px solid #ddd;
+    transition: 0.3s ease-in-out all;
+}
 
 .shortCuts .shortCuts-container i { font-size: 5em; color: #ddd; }
 
