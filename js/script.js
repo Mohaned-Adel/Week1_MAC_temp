@@ -6,10 +6,12 @@ let closeTag = document.querySelector('.close');
 
 dropicon.addEventListener('click', function() {
     navList.classList.toggle('active');
+    closeTag.classList.toggle('view');
 });
 
 closeTag.addEventListener('click', function() {
     navList.classList.toggle('active');
+    closeTag.classList.toggle('view');
 });
 
 window.addEventListener('scroll', function(){

@@ -10,7 +10,9 @@
 }
 
 body { display: block; font-family: sans-serif }
-
+.header .navBar ul .view {
+    display: block;
+}
 /*** Header ***/
 .header .navBar {
     border-top: 3px solid #ff6a00;
