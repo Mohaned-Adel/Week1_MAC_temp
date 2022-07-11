@@ -434,13 +434,15 @@ body { display: block; font-family: sans-serif }
 
 @media(max-width:767px){
     .container {
-        width: 600px;
         margin: auto;
     }
 
     .header .navBar {
         padding-bottom: 15px; 
         overflow: visible;
+    }
+    .header .navBar .container {
+        width: 90%;
     }
     .header .navBar ul.active {
         right: -300px;
@@ -452,7 +454,7 @@ body { display: block; font-family: sans-serif }
         right: 0;
         top: 0;
         height: 100vh;
-        width: 30vw;
+        width: 50vw;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -466,10 +468,6 @@ body { display: block; font-family: sans-serif }
         top: 20px;
         left: 20px;
         cursor: pointer;
-    }
-
-    .header h3 {
-        margin-left: 100px
     }
     .header .navBar #drop-bt {
         border: none;
@@ -550,23 +548,13 @@ body { display: block; font-family: sans-serif }
     .footer {
         padding: 50px 5px;
     }
-
-    .footer .contacts .we-can-do {
-        margin-right: 7%;
+    .footer .container > div {
+        width: 100% !important;
+        margin-bottom: 30px;
     }
-
-    .footer .contacts .social-media {
-        width: 30%;
-        margin-right: 3%;
-    }
-
     .footer .contacts .social-media .fab {
         font-size: 1em;
         padding: 10px;
-    }
-
-    .footer .contacts .contact {
-        width: 25%;
     }
     
 }
