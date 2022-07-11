@@ -73,7 +73,7 @@ body { display: block; font-family: sans-serif }
 
 .header .logo {
     background-image: radial-gradient(#fabd54, #643519);
-    width: 100vw;
+    width: 100%;
     min-height: 400px;
     display: block;
     margin: 0px auto;
